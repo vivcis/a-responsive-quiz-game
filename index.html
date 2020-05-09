@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>What do you know about Geography?</title>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css"></link>
+    <link rel="shortcut icon" type="image/jpg" href="img/background1.jpg"/>
+	</head>
+	<body onload="display();">
+
+    <img src="img/pexel2.jpeg" alt="World Map" width="100" height="333">
+		<div id="quiz">
+			<div id="head">
+				<h5 id="yscore" style="float:right"></h5>
+				<h1>Let's see if you know your geography
+					<br> Are you ready? 
+					<br> Let's go...</h1><br>
+				<hr></div><div id="body"><i>
+                      
+
+					<h2 id="question">Loading question...</h2></i>
+					<button id="1" value="1" onclick="bid(this.id);">Loading option...</button>
+              <button id="2" value="2" onclick="bid(this.id);">Loading option...</button>
+            <button id="3" value="3" onclick="bid(this.id);">Loading option...</button>
+            <button id="4" value="4" onclick="bid(this.id);">Loading option...</button>
+           <i><h4 id="option" style="float:right"></h4></i>
+            <i><h4 id="quesno"></h4></i>
+            <hr>
+        </div>
+        <div id="foot">
+             <button id="submit" onclick="display();" style="float:right"></button>
+    <button id="exit" onclick="end();"><b>End Quiz</b></button>
+        </div><p id="name"><i><b>By vivcis</b></i></p>
+        </div>
+        <div id="result">
+            <div id="rhead">
+               &#10003;
+            </div>
+            <div id="rbody">
+            <h2>Congratulations!!!</h2>
+      <h3 id="attempt"></h3>
+      <h3 id="correct"></h3>
+      <h3 id="myscore"></h3>
+            </div>
+            <div id="rfoot">
+              <a href="">
+                <button id="again"><b><i>Click here to enjoy the quiz again</i></b></button></a>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
